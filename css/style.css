@@ -1,0 +1,14 @@
+body {
+  font-family: "inter", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Home page */
+.cta-banner {
+  background-image: url("../images/hero-image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 550px;
+  color: white;
+  background-position-x: right;
+  background-position-y: top;
+}
