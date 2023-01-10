@@ -106,3 +106,30 @@ a {
 .cta:hover {
   background-color: #ffffff;
 }
+
+.arrivals-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-flow: wrap;
+
+}
+
+.mini-cover {
+  width: 275px;
+  height: 160px;
+  margin: 20px;
+}
+
+.mini-rounded {
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px #000000;
+}
+
+.mini-rounded:hover {
+  border-style: solid;
+  border-width: 10px;
+  border-color: #fefefe;
+}
