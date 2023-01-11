@@ -113,18 +113,10 @@ a {
   margin: 50px auto;
   display: flex;
   gap: 20px;
-  align-items: center;
+  justify-content: center;
 
 }
 
 .arrivals-container > * {
   flex: 1;
-}
-
-.mini-cover {
-
-}
-
-.mini-rounded {
-
 }
