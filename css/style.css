@@ -6,7 +6,7 @@ body {
 
 }
 * {
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -109,14 +109,8 @@ a {
 
 
 .arrivals-container {
-  max-width: 1000px;
-  margin: 50px auto;
-  display: flex;
-  gap: 20px;
-  justify-content: center;
-
-}
-
-.arrivals-container > * {
-  flex: 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 2rem;
+  height: 100vh;
 }
