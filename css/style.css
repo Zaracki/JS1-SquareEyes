@@ -88,9 +88,31 @@ header a {
 /* Footer */
 
 footer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 10%;
   background-color: #000814;
 }
 
+footer a {
+  color: #fefefe;
+  text-decoration: none;
+}
+
+.social-list {
+  list-style: none;
+}
+
+.social-list a {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+footer p {
+  color: #fefefe;
+  margin-right: auto;
+}
 
 
 /* Homepage */
