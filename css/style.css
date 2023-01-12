@@ -40,6 +40,8 @@ p {
   text-decoration: none;
 
 }
+
+
 /* Nav */
 
 .logo {
@@ -49,11 +51,11 @@ p {
   max-height: 55px;
 }
 
-nav ul {
+header nav ul {
   padding: 0px
 }
 
-nav li {
+header nav li {
   display: inline-block;
   margin-right: 24px;
 }
@@ -82,6 +84,14 @@ header a {
 .active {
   text-decoration: underline;
 }
+
+/* Footer */
+
+footer {
+  background-color: #000814;
+}
+
+
 
 /* Homepage */
 
@@ -121,6 +131,7 @@ header a {
 
 .new-arrivals h2 {
   grid-column: -1/1;
+  padding: 40px 0px 0px 0px;
 }
 
 .new-arrivals img {
@@ -140,9 +151,29 @@ header a {
 
 .top-picks h2 {
   grid-column: -1/1;
+  padding: 40px 0px 0px 0px;
 }
 
 .top-picks img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.coming-soon {
+  color: #fefefe;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1160px;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.coming-soon h2 {
+  grid-column: -1/1;
+  padding: 40px 0px 0px 0px;
+}
+
+.coming-soon img {
   width: 100%;
   border-radius: 15px;
 }
