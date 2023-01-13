@@ -300,3 +300,45 @@ footer a {
   padding: 18px 0 45px;
 }
 
+.cta-rent {
+  background-color: transparent;
+  color: #fefefe;
+  border-style: solid;
+  border-color: #fefefe;
+  margin: 15px 15px;
+  padding: 10px 20px;
+  
+}
+
+.cta-buy {
+  border-style: solid;
+  border-color: #DFBF1E;
+  margin: 15px 0px;
+  padding: 10px 20px;
+}
+
+.cast{
+  color: #fefefe;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  max-width: 1160px;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.cast h2 {
+  grid-column: -1/1;
+  padding: 40px 0px 0px 0px;
+}
+
+.cast img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+.cast h3 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+}
