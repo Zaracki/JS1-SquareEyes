@@ -116,7 +116,6 @@ footer a {
   padding: 0px 5px;
 }
 
-
 /* Homepage */
 
 .cta-banner {
@@ -161,6 +160,7 @@ footer a {
 .new-arrivals img {
   width: 100%;
   border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -181,6 +181,7 @@ footer a {
 .top-picks img {
   width: 100%;
   border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 .coming-soon {
@@ -201,4 +202,67 @@ footer a {
 .coming-soon img {
   width: 100%;
   border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
+}
+
+/** Movies page **/
+
+.preview-banner {
+  background-image: url("../images/movies/thor-header.png");
+  background-size: cover;
+  min-height: 450px;
+  max-width: 1160px;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin: auto;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
+  color: #fefefe;
+  position: relative;
+}
+
+
+
+.cta-tag,
+.active-tag {
+  display: inline-block;
+  background-color: transparent;
+  color: #fefefe;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 11.52px 21.2px;
+  border-radius: 10px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: #fefefe;
+  font-size: 19.21px;
+  font-weight: 600;
+  margin: 15px 0px;
+}
+
+.movie-sort {
+  max-width: 1160px;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin: auto;
+  position: relative;
+}
+
+.active-tag {
+  background-color: #fefefe;
+  color: #000000;
+}
+
+.movie-sorted {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1160px;
+  margin: auto;
+  grid-gap: 20px;
+  padding: 30px 0px 40px 0px;
+}
+
+.movie-sorted img {
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
