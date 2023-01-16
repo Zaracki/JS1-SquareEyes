@@ -82,6 +82,10 @@ header a {
   font-weight: 600;
 }
 
+header a:hover {
+  opacity: 50%;
+}
+
 .active {
   text-decoration: underline;
 }
@@ -325,7 +329,8 @@ footer a {
   padding: 10px 20px;
 }
 
-.cast{
+.cast,
+.might-like {
   color: #fefefe;
   display: grid;
   grid-template-columns: repeat(6, 1fr);
@@ -334,12 +339,14 @@ footer a {
   grid-gap: 20px;
 }
 
-.cast h2 {
+.cast h2,
+.might-like h2 {
   grid-column: -1/1;
   padding: 40px 0px 0px 0px;
 }
 
-.cast img {
+.cast img,
+.might-like img {
   width: 100%;
   border-radius: 15px;
   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
@@ -350,3 +357,14 @@ footer a {
   font-weight: 400;
   margin-top: 5px;
 }
+
+.might-like {
+  color: #fefefe;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1160px;
+  margin: auto;
+  grid-gap: 20px;
+  padding: 0 0 40px 0;
+}
+
