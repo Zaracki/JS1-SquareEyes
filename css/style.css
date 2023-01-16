@@ -271,9 +271,11 @@ footer a {
   display: flex;
 }
 
+
 .product-img {
   max-width: 373px;
   flex: 0 0 568px;
+
 }
 
 .doctorstrange-product {
