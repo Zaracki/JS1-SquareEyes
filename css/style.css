@@ -8,6 +8,7 @@ body {
 
 }
 
+
 * {
   margin: 0px;
   padding: 0;
@@ -91,6 +92,10 @@ header a:hover {
 }
 
 /* Footer */
+
+footer {
+  margin-top: auto;
+}
 
 .copy-2022 {
   cursor: pointer;
@@ -368,5 +373,33 @@ footer a {
   margin: auto;
   grid-gap: 20px;
   padding: 0 0 40px 0;
+}
+
+/** Checkout **/
+
+
+
+/** About **/
+
+ .about-header {
+  background-image: url("../images/about-us.png");
+  background-size: cover;
+  min-height: 368px;
+  max-width: 1160px;
+  background-position-x: right;
+  background-position-y: bottom;
+  margin: auto;
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
+  color: #fefefe;
+  position: relative;
+}
+
+.about-info {
+  position: relative;
+  text-align: center;
+  min-height: 550px;
+  max-width: 1160px;
+  margin: auto;
+  color: #fefefe;
 }
 
