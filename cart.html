@@ -27,57 +27,81 @@
     </div>
   </header>
   <main>
-    <div class="info-wrapper">
-      <form>
-        <h2>Billing details</h2>
-        <div class="input-info">
-          <div class="input-area">
-            <input type="text" placeholder="First name">
+    <section class="checkout-divide">
+      <div class="info-wrapper">
+        <form>
+          <h2>Billing details</h2>
+          <hr>
+          <div class="input-info">
+            <div class="input-area">
+              <label for="name">First name</label>
+              <input type="text" placeholder="First name" id="name">
+            </div>
+            <div class="input-area">
+              <label for="name">Last name</label>
+              <input type="text" placeholder="Last name" id="name">
+            </div>
+          </div>  
+          <div class="input-info">
+            <div class="input-area">
+              <label for="email">Email</label>
+              <input type="email" placeholder="Email" id="email">
+            </div>
           </div>
-          <div class="input-area">
-            <input type="text" placeholder="Last name">
+          <div class="input-info">
+            <div class="input-area">
+              <label for="country">Country</label>
+              <input type="text" placeholder="Country" id="country">
+            </div>
           </div>
-        </div>  
-        <div class="input-info">
-          <div class="input-area">
-            <input type="email" placeholder="Email">
+          <div class="input-info">
+            <div class="input-area">
+              <label for="state">State/County</label>
+              <input type="text" placeholder="State/County" id="state">
+            </div>
+            <div class="input-area">
+              <label for="zip">Zip/Postal code</label>
+              <input type="text" placeholder="Zip/Postal code" id="zip">
+            </div>
+          </div>
+          <h2>Payment Method</h2>
+          <hr>
+          <div class="input-info">
+            <div class="input-area">
+              <label for="card">Card number</label>
+              <input type="text" placeholder="Card number" id="card">
+            </div>
+          </div>
+          <div class="input-info">
+            <div class="input-area">
+              <input type="text" placeholder="Date" class="tiny-info">
+            </div>
+            <div class="input-area">
+              <input type="text" placeholder="Year" class="tiny-info">
+            </div>
+            <div class="input-area">
+              <input type="text" placeholder="cvc" class="tiny-info">
+            </div>
+          </div>
+              <a href="" class="cta" style="width: 100%;">Pay now</a>
+        </form>
+      </div>
+
+      <div class="cart-items">
+        <h2> Cart</h2>
+        <hr>
+        <div class="cart-itempos">
+          <div class="item-thor">
+            <img src="/images/mini-thor.png">
+          </div>
+          <div class="disc-thor">
+            <h3>Thor love and thunder</h3>
+            <p>Digital purchase</p>
           </div>
         </div>
-        <div class="input-info">
-          <div class="input-area">
-            <input type="text" placeholder="Country">
-          </div>
-        </div>
-        <div class="input-info">
-          <div class="input-area">
-            <input type="text" placeholder="State/County">
-          </div>
-          <div class="input-area">
-            <input type="text" placeholder="Zip/Postal code">
-          </div>
-        </div>
-        <h2>Payment Method</h2>
-        <div class="input-info">
-          <div class="input-area">
-            <input type="text" placeholder="Card number">
-          </div>
-        </div>
-        <div class="input-info">
-          <div class="input-area">
-            <input type="text" placeholder="Date" class="tiny-info">
-            <input type="text" placeholder="Year" class="tiny-info">
-            <input type="text" placeholder="cvc" class="tiny-info">
-        </div>
-        
+      </div>
+    </section>
 
-
-
-      </form>
-
-
-
-
-    </div>
   </main>
   <footer>
     <div class="social-position">

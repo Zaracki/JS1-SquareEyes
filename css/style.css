@@ -385,6 +385,7 @@ footer a {
 }
 
 .input-info {
+  margin-bottom: 8px;
   width: 100%;
   position: relative;
   display: flex;
@@ -396,15 +397,54 @@ footer a {
   padding-bottom: 5px;
 }
 
-.inpu-area {
-  margin-bottom: 8px;
+.input-area {
   width: 100%;
   position: relative;
-  display: flex;
-  flex-direction: row;
-  padding: 5px 0;
+  margin-right: 12px;
 }
 
+.input-area input {
+  padding: 8px 8px;
+  width: 100%;
+  border-radius: 5px;
+  
+}
+
+.tiny-info {
+  width: 30%;
+  padding: 14px;
+}
+
+.checkout-divide {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 1160px;
+  margin: auto;
+  grid-gap: 20px;
+}
+
+.cart-itempos {
+  position: relative;
+  max-width: 1160px;
+  margin: auto;
+  padding: 10px 0;
+  display: flex;
+}
+
+.cart-items {
+  color: #fefefe;
+
+}
+
+.item-thor {
+
+}
+
+.disc-thor {
+  margin-left: 20px;
+  color: #fefefe;
+  margin-top: 80px;
+}
 
 
 
