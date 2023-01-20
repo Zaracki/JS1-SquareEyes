@@ -447,7 +447,7 @@ footer a {
 
 .cart-items {
   color: #fefefe;
-  padding: 100px 0 0 0;
+  padding: 70px 0 0 0;
 }
 
 .disc-thor {
@@ -511,3 +511,30 @@ footer a {
   font-size: 20px;
   margin: 30px;
 }
+
+/** Contact Page **/
+
+.street-map {
+  background-size: cover;
+  min-height: 472px;
+  max-width: 1160px;
+  background-position-x: center;
+  background-position-y: center;
+  margin: auto;
+  color: #fefefe;
+  position: relative;
+  display: flex;
+}
+
+
+
+/** Checkout Success **/
+
+.checkout-success_main {
+  max-width: 1160px;
+  margin: auto;
+  color: #fefefe;
+}
+
+
+
