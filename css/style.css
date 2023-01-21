@@ -23,6 +23,7 @@ footer {
 
 h1 {
   font-size: 48px;
+  color: #fefefe;
 }
 
 h2 {
@@ -358,10 +359,16 @@ footer a {
 
 /** Checkout **/
 
+.header_checkout {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 0;
+}
+
 .info-wrapper {
   background-color: transparent;
   width: 500px;
-  padding: 70px 0 0 0;
+  padding: 50px 0 0 0;
   color: #fefefe;
 }
 
@@ -427,7 +434,7 @@ footer a {
 
 .cart-items {
   color: #fefefe;
-  padding: 70px 0 0 0;
+  padding: 50px 0 0 0;
 }
 
 .disc-thor {
