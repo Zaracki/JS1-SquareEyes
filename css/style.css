@@ -141,6 +141,7 @@ footer a {
   background-position-y: bottom;
   margin: auto;
   mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
   color: #fefefe;
   position: relative;
 }
@@ -186,12 +187,16 @@ footer a {
   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
-.product_item:hover {
+.product_item:hover{
   margin: -2px;
   border-style: solid;
   border-width: 4px;
   border-radius: 15px;
   color: #fefefe;
+}
+
+.product_item-big:hover {
+  margin: 2px;
 }
 
 .coming-soon {
