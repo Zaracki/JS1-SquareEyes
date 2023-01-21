@@ -90,6 +90,12 @@ header a:hover {
   text-decoration: underline;
 }
 
+header {
+  top: 0;
+  position: sticky;
+  z-index: 500;
+}
+
 /* Footer */
 
 footer {
@@ -394,6 +400,10 @@ footer a {
   width: 100%;
 }
 
+.cta-pay:hover {
+  color: #000000;
+}
+
 .checkout-divide {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -499,7 +509,22 @@ footer a {
   max-width: 1160px;
   margin: auto;
   color: #fefefe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
+.checkout-success_main img {
+  margin: auto;
+  padding: 0 0 43px;
+}
 
+.checkout-success_main h1 {
+  padding: 0 0 30px;
+}
 
+.checkout-success_main p {
+  font-size: 20px;
+  margin: auto;
+  padding: 0 0 50px;
+}
