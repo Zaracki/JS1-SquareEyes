@@ -75,7 +75,6 @@ header nav li {
   margin: auto;
 }
 
-
 header a {
   color: #fefefe;
   text-decoration: none;
@@ -90,11 +89,6 @@ header a:hover {
 .active {
   text-decoration: underline;
 }
-
-header {
- 
-}
-
 
 /* Footer */
 
@@ -150,11 +144,14 @@ footer a {
   text-align: left;
   top: 158px;
   left: 150px;
-
 }
 
 .cta {
   margin: 20px 0px;
+}
+
+.cta:hover {
+  background-color: #fefefe;
 }
 
 .new-arrivals,
@@ -183,8 +180,7 @@ footer a {
   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
-.mini-rounded:hover,
-.cs-rounded:hover {
+.product_item:hover {
   margin: -2px;
   border-style: solid;
   border-width: 4px;
@@ -195,23 +191,15 @@ footer a {
   padding: 0px 0px 40px 0px;
 }
 
-
 /** Movies page **/
 
-.preview-banner {
-  background-image: url("../images/movies/thor-header.png");
-  background-size: cover;
+.product_thor-banner {
+  background-image: none;
+  mask-image: none;
   min-height: 450px;
   max-width: 1160px;
-  background-position-x: right;
-  background-position-y: bottom;
-  margin: auto;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
-  color: #fefefe;
-  position: relative;
+  display: flex;
 }
-
-
 
 .cta-tag,
 .active-tag {
