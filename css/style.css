@@ -576,5 +576,8 @@ padding: 50px 0 0 0;
   padding: 0 0 50px;
 }
 
-
+.cta-continue {
+  text-align: center
+  ;
+}
 
