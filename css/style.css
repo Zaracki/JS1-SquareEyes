@@ -243,6 +243,11 @@ footer a {
   color: #000000;
 }
 
+.cta-tag:hover {
+  background-color: #fefefe;
+  color: #000000;
+}
+
 .product_sorted {
   padding: 30px 0px 40px 0px;
 }
