@@ -160,6 +160,7 @@ footer a {
 
 .cta:hover {
   background-color: #fefefe;
+  border-color: #fefefe;
 }
 
 .new-arrivals,
@@ -243,7 +244,8 @@ footer a {
   color: #000000;
 }
 
-.cta-tag:hover {
+.cta-tag:hover,
+.cta-rent:hover {
   background-color: #fefefe;
   color: #000000;
 }
