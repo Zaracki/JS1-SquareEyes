@@ -470,6 +470,11 @@ footer a {
   justify-content: space-between;
 }
 
+.product-total h4 {
+  font-weight: 400;
+  font-size: 20px;
+}
+
 /** About **/
 
  .about-banner {
