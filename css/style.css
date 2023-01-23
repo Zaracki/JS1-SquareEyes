@@ -527,6 +527,21 @@ footer a {
 padding: 50px 0 0 0;
 }
 
+.info-contact hr {
+  margin-right: 12px;
+}
+
+.cta-submit {
+  width: 488px;
+  text-align: center;
+  margin: 0px;
+}
+
+.cta-submit:hover {
+  background-color: #fefefe;
+  color: #000000;
+}
+
 
 /** Checkout Success **/
 
