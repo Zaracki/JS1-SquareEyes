@@ -512,6 +512,22 @@ footer a {
   -webkit-mask-image: none;
 }
 
+.contact-title {
+  text-align: center;
+  padding: 10px;
+}
+
+.text-area {
+  width: 100%;
+  height: 330px;
+}
+
+.contact-info {
+  color: #fefefe;
+padding: 50px 0 0 0;
+}
+
+
 /** Checkout Success **/
 
 .checkout-success_main {
