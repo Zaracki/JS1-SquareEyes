@@ -261,6 +261,7 @@ footer a {
 .product_drstrange-banner {
   background-image: none;
   min-height: 388px;
+  display: flex;
 }
 
 .product-area {
@@ -471,17 +472,13 @@ footer a {
 
 /** About **/
 
- .about-header {
-  background-image: url("../images/about-us.png");
-  background-size: cover;
+ .about-banner {
+  background-image: none;
   min-height: 368px;
   max-width: 1160px;
-  background-position-x: right;
-  background-position-y: bottom;
-  margin: auto;
-  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1.0) 90%, transparent 100%);
-  color: #fefefe;
-  position: relative;
+  display: flex;
+  mask-image: none;
+  -webkit-mask-image: none;
 }
 
 .about-info {
@@ -502,18 +499,13 @@ footer a {
 /** Contact Page **/
 
 .street-map {
-  background-size: cover;
+  background-image: none;
   min-height: 472px;
   max-width: 1160px;
-  background-position-x: center;
-  background-position-y: center;
-  margin: auto;
-  color: #fefefe;
-  position: relative;
   display: flex;
+  mask-image: none;
+  -webkit-mask-image: none;
 }
-
-
 
 /** Checkout Success **/
 
@@ -540,3 +532,6 @@ footer a {
   margin: auto;
   padding: 0 0 50px;
 }
+
+
+
