@@ -148,10 +148,12 @@ footer a {
 }
 
 .cta-container {
-  position: absolute;
+  position: relative;
   text-align: left;
+  max-width: 1160px;
+  margin: auto;
   top: 158px;
-  left: 150px;
+  
 }
 
 .cta {
@@ -168,8 +170,8 @@ footer a {
 .coming-soon {
   color: #fefefe;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  max-width: 1160px;
+  grid-template-columns: repeat(2, 1fr);
+  max-width: 323px;
   margin: auto;
   grid-gap: 20px;
 }
@@ -232,7 +234,7 @@ footer a {
 }
 
 .movie-sort {
-  max-width: 1160px;
+  max-width: 323px;
   background-position-x: right;
   background-position-y: bottom;
   margin: auto;
@@ -581,3 +583,50 @@ padding: 50px 0 0 0;
   ;
 }
 
+
+
+@media (min-width: 590px){
+  
+  .new-arrivals,
+  .top-picks,
+  .coming-soon {
+    max-width: 575px;
+  }
+.movie-sort {
+  max-width: 575px;
+}
+
+}
+
+
+@media (min-width: 805px){
+  
+  .new-arrivals,
+  .top-picks,
+  .coming-soon {
+    max-width: 805px;
+  }
+.movie-sort {
+  max-width: 805px;
+}
+}
+
+
+@media (min-width: 1165px){
+  .new-arrivals,
+  .top-picks,
+  .coming-soon {
+
+  grid-template-columns: repeat(4, 1fr);
+  max-width: 1160px;
+
+}
+.movie-sort {
+  max-width: 1160px;
+}
+
+.cast {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+}
