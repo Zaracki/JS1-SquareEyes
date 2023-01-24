@@ -136,7 +136,7 @@ footer a {
 .cta-banner {
   background-image: url("../images/homepage/Hero-img.png");
   background-size: cover;
-  min-height: 550px;
+  min-height: 207px;
   max-width: 1440px;
   background-position-x: right;
   background-position-y: bottom;
@@ -148,12 +148,19 @@ footer a {
 }
 
 .cta-container {
-  position: relative;
-  text-align: left;
-  max-width: 1160px;
-  margin: auto;
-  top: 158px;
-  
+  display: none;
+}
+
+.cta-container_small-screen {
+  text-align: center;
+  color: #fefefe;
+}
+.cta-container_small-screen p {
+  font-size: 14px;
+}
+
+.cta-container_small-screen h1 {
+  font-size: 28px;
 }
 
 .cta {
@@ -212,8 +219,8 @@ footer a {
 .product_thor-banner {
   background-image: none;
   mask-image: none;
-  min-height: 450px;
-  max-width: 1160px;
+  min-height: 140px;
+  max-width: 350px;
   display: flex;
 }
 
@@ -586,10 +593,22 @@ padding: 50px 0 0 0;
 
 
 @media (min-width: 590px){
+
+  .cta-container_small-screen p {
+    font-size: 25px;
+  }
+  .cta-banner {
+    min-height: 550px;
+  }
   
   .new-arrivals,
   .top-picks,
   .coming-soon {
+    max-width: 575px;
+  }
+
+  .product_thor-banner {
+    min-height: 140px;
     max-width: 575px;
   }
 .movie-sort {
@@ -600,12 +619,19 @@ padding: 50px 0 0 0;
 
 
 @media (min-width: 805px){
+
   
   .new-arrivals,
   .top-picks,
   .coming-soon {
     max-width: 805px;
   }
+
+.product_thor-banner {
+  min-height: 140px;
+  max-width: 805px;
+}
+
 .movie-sort {
   max-width: 805px;
 }
@@ -613,6 +639,20 @@ padding: 50px 0 0 0;
 
 
 @media (min-width: 1165px){
+
+  .cta-container {
+    position: relative;
+    text-align: left;
+    max-width: 1160px;
+    margin: auto;
+    top: 158px;
+    display: block;
+  }
+
+  .cta-container_small-screen {
+    display: none;
+  }
+
   .new-arrivals,
   .top-picks,
   .coming-soon {
@@ -621,6 +661,11 @@ padding: 50px 0 0 0;
   max-width: 1160px;
 
 }
+.product_thor-banner {
+  min-height: 450px;
+  max-width: 1160px;
+}
+
 .movie-sort {
   max-width: 1160px;
 }
