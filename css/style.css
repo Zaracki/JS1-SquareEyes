@@ -438,6 +438,7 @@ footer a {
   max-width: 1160px;
   margin: auto;
   grid-gap: 20px;
+  padding: 0 0 30px;
 }
 
 .cart-itempos {
@@ -469,11 +470,6 @@ footer a {
   font-weight: 500;
 }
 
-.cart-items hr,
-.info-wrapper hr {
-  color: #505050;
-}
-
 .product-price {
   text-align: end;
 }
@@ -494,8 +490,8 @@ footer a {
 
  .about-banner {
   background-image: none;
-  min-height: 368px;
-  max-width: 1160px;
+  min-height: 140px;
+  max-width: 350px;
   display: flex;
   mask-image: none;
   -webkit-mask-image: none;
@@ -540,8 +536,18 @@ footer a {
 
 .contact-info {
   color: #fefefe;
-padding: 50px 0 0 0;
+  padding: 60px 0 0 0;
 }
+
+.contact-info ul{
+  padding: 20px 0;
+  list-style: none;
+}
+
+.contact-info span {
+  font-weight: 700;
+}
+
 
 .info-contact hr {
   margin-right: 12px;
@@ -607,7 +613,9 @@ padding: 50px 0 0 0;
     max-width: 575px;
   }
 
-  .product_thor-banner {
+  .product_thor-banner,
+  .about-banner,
+  .street-map {
     min-height: 140px;
     max-width: 575px;
   }
@@ -627,7 +635,9 @@ padding: 50px 0 0 0;
     max-width: 805px;
   }
 
-.product_thor-banner {
+.product_thor-banner,
+.about-banner,
+.street-map {
   min-height: 140px;
   max-width: 805px;
 }
@@ -661,7 +671,9 @@ padding: 50px 0 0 0;
   max-width: 1160px;
 
 }
-.product_thor-banner {
+.product_thor-banner,
+.about-banner,
+.street-map {
   min-height: 450px;
   max-width: 1160px;
 }
