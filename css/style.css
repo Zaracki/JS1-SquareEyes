@@ -701,9 +701,15 @@ footer a {
 .product_thor-banner,
 .about-banner,
 .street-map,
-.product_drstrange-banner {
+ {
   min-height: 450px;
   max-width: 1160px;
+}
+
+.product_drstrange-banner {
+  min-height: 400px;
+  max-width: 1440px;
+  
 }
 
 .cta-tag {
