@@ -228,22 +228,18 @@ footer a {
   display: inline-block;
   background-color: transparent;
   color: #fefefe;
-  font-size: 20px;
-  font-weight: 500;
-  padding: 11.52px 21.2px;
+  padding: 8.52px 10.2px;
   border-radius: 10px;
   text-decoration: none;
   border-style: solid;
   border-color: #fefefe;
-  font-size: 19.21px;
+  font-size: 15.21px;
   font-weight: 600;
-  margin: 15px 0px;
+  margin: 15px 1px;
 }
 
 .movie-sort {
   max-width: 323px;
-  background-position-x: right;
-  background-position-y: bottom;
   margin: auto;
   position: relative;
 }
@@ -275,7 +271,8 @@ footer a {
 
 .product_drstrange-banner {
   background-image: none;
-  min-height: 388px;
+  min-height: 100%;
+  max-width: 100%;
   display: flex;
 }
 
@@ -300,7 +297,7 @@ footer a {
 }
 
 .product-info {
-  margin-left: 118px;
+  margin-left: 20px;
   color: #fefefe;
   margin-top: 15px;
 }
@@ -617,7 +614,8 @@ footer a {
 
   .product_thor-banner,
   .about-banner,
-  .street-map {
+  .street-map,
+  .product_drstrange-banner {
     min-height: 100%;
     max-width: 100%;
   }
@@ -645,7 +643,8 @@ footer a {
 
 .product_thor-banner,
 .about-banner,
-.street-map {
+.street-map,
+.product_drstrange-banner {
   min-height: 100%;
   max-width: 100%;
 }
@@ -696,13 +695,25 @@ footer a {
 }
 .product_thor-banner,
 .about-banner,
-.street-map {
+.street-map,
+.product_drstrange-banner {
   min-height: 450px;
   max-width: 1160px;
 }
 
+.cta-tag {
+  padding: 11.52px 21.2px;
+  border-radius: 10px;
+  font-size: 19.21px;
+  margin: 15px 0px;
+}
+
 .movie-sort {
   max-width: 1160px;
+}
+
+.product-info {
+  margin-left: 118px;
 }
 
 .cast {
