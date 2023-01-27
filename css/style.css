@@ -25,8 +25,7 @@ footer {
 }
 
 h1 {
-  font-size: 48px;
-  color: 
+  font-size: 28px;
 }
 
 h2 {
@@ -35,7 +34,7 @@ h2 {
 }
 
 p {
-  font-size: 25px;
+  font-size: 14px;
 }
 
 .cta {
@@ -160,13 +159,8 @@ footer a {
 .cta-container_small-screen {
   text-align: center;
 }
-.cta-container_small-screen p {
-  font-size: 14px;
-}
 
-.cta-container_small-screen h1 {
-  font-size: 28px;
-}
+
 
 .cta {
   margin: 20px 0px;
@@ -304,10 +298,6 @@ footer a {
 .product-info {
   margin-left: 20px;
   margin-top: 15px;
-}
-
-.product-info p {
-  font-size: 20px;
 }
 
 .product-info h1 {
@@ -596,9 +586,7 @@ footer a {
 
 @media (min-width: 590px){
 
-  .cta-container_small-screen p {
-    font-size: 25px;
-  }
+
   .cta-banner {
     min-height: 550px;
   }
@@ -625,13 +613,19 @@ footer a {
 }
 
 
-
 }
 
 
 @media (min-width: 805px){
 
-  
+h1 {
+  font-size: 38px;
+}
+
+p {
+  font-size: 20px;
+}
+
   .new-arrivals,
   .top-picks,
   .coming-soon {
@@ -668,6 +662,14 @@ footer a {
 
 
 @media (min-width: 1165px){
+
+  h1 {
+    font-size: 48px;
+  }
+
+  p {
+    font-size: 20px;
+  }
 
   .cta-container {
     position: relative;
