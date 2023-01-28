@@ -577,8 +577,6 @@ footer a {
   ;
 }
 
-
-
 @media (min-width: 590px){
 
 
@@ -682,51 +680,48 @@ p {
   .new-arrivals,
   .top-picks,
   .coming-soon {
-
   grid-template-columns: repeat(4, 1fr);
   max-width: 1160px;
+  }
 
-}
-.product_thor-banner,
-.about-banner,
-.street-map,
- {
-  min-height: 450px;
-  max-width: 1160px;
-}
+  .product_thor-banner,
+  .about-banner,
+  .street-map {
+    min-height: 450px;
+    max-width: 1160px;
+  }
 
-.product_drstrange-banner {
-  min-height: 400px;
-  max-width: 1440px;
-  
-}
 
-.cta-tag {
-  padding: 11.52px 21.2px;
-  border-radius: 10px;
-  font-size: 19.21px;
-  margin: 15px 0px;
-}
 
-.movie-sort {
-  max-width: 1160px;
-}
+  .product_drstrange-banner {
+    min-height: 400px;
+    max-width: 1440px;
+  }
 
-.product-info {
-  margin-left: 118px;
-}
+  .cta-tag {
+    padding: 11.52px 21.2px;
+    border-radius: 10px;
+    font-size: 19.21px;
+    margin: 15px 0px;
+  }
 
-.cast {
-  grid-template-columns: repeat(6, 1fr);
-}
+  .movie-sort {
+    max-width: 1160px;
+  }
 
-.product-area {
+  .product-info {
+    margin-left: 118px;
+  }
 
-  display: flex;
-}
+  .cast {
+    grid-template-columns: repeat(6, 1fr);
+  }
 
-.product-img {
-  display: contents;
-}
+  .product-area {
+    display: flex;
+  }
 
+  .product-img {
+    display: contents;
+  }
 }
