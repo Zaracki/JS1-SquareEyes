@@ -10,6 +10,10 @@ body {
 
 :root {
   --main-white: #fefefe;
+  --main-dark-text: #000000;
+  --nav-color-dark: #000814;
+  --cta-main: #dfbf1e;
+
 }
 
 * {
@@ -21,7 +25,7 @@ body {
 header,
 footer {
   font-family: "inter", Verdana, Geneva, Tahoma, sans-serif;
-  background-color: #000814;
+  background-color: var(--nav-color-dark);
 }
 
 h1 {
@@ -39,8 +43,8 @@ p {
 
 .cta {
   display: inline-block;
-  background-color: #DFBF1E;
-  color: #000000;
+  background-color: var(--cta-main);
+  color: var(--main-dark-text);
   font-size: 20px;
   font-weight: 500;
   padding: 12px 22px;
@@ -79,7 +83,7 @@ header nav li {
 }
 
 header a {
-  color: #fefefe;
+  color: var(--main-white);
   text-decoration: none;
   font-size: 20px;
   font-weight: 600;
@@ -103,12 +107,12 @@ header {
 
 footer {
   margin-top: auto;
+  color: var(--main-white);
 }
 
 .copy-2022 {
   cursor: pointer;
   margin-right: auto;
-  color: #fefefe;
   font-size: 16px;
   font-weight: 400;
 }
@@ -128,7 +132,7 @@ footer nav li {
 }
 
 footer a {
-  color: #fefefe;
+  color: var(--main-white);
   text-decoration: none;
   padding: 0px 5px;
 }
@@ -167,8 +171,8 @@ footer a {
 }
 
 .cta:hover {
-  background-color: #fefefe;
-  border-color: #fefefe;
+  background-color: var(--main-white);
+  border-color: var(--main-white);
 }
 
 .new-arrivals,
@@ -201,7 +205,7 @@ footer a {
   border-style: solid;
   border-width: 4px;
   border-radius: 15px;
-  color: #fefefe;
+  color: var(--main-white);
 }
 
 .product_item-big:hover {
@@ -226,12 +230,12 @@ footer a {
 .cta-tag {
   display: inline-block;
   background-color: transparent;
-  color: #fefefe;
+  color: var(--main-white);
   padding: 8.52px 10.2px;
   border-radius: 10px;
   text-decoration: none;
   border-style: solid;
-  border-color: #fefefe;
+  border-color: var(--main-white);
   font-size: 15.21px;
   font-weight: 600;
   margin: 15px 1px;
@@ -243,15 +247,12 @@ footer a {
   position: relative;
 }
 
-.active-tag {
-  background-color: #fefefe;
-  color: #000000;
-}
-
 .cta-tag:hover,
-.cta-rent:hover {
-  background-color: #fefefe;
-  color: #000000;
+.cta-rent:hover,
+.active-tag,
+.cta-submit:hover {
+  background-color: var(--main-white);
+  color: var(--main-dark-text)
 }
 
 .product_sorted {
@@ -322,9 +323,9 @@ footer a {
 
 .cta-rent {
   background-color: transparent;
-  color: #fefefe;
+  color: var(--main-white);
   border-style: solid;
-  border-color: #fefefe;
+  border-color: var(--main-white);
   margin: 15px 15px;
   padding: 10px 20px;
   
@@ -332,7 +333,7 @@ footer a {
 
 .cta-buy {
   border-style: solid;
-  border-color: #DFBF1E;
+  border-color: var(--cta-main);
   margin: 15px 0px;
   padding: 10px 20px;
 }
@@ -411,8 +412,8 @@ footer a {
 }
 
 .cta-pay {
-  background-color: #0fc25d;
-  color: #fefefe;
+  background-color: #0ba54e;
+  color: var(--main-white);
   text-align: center;
   width: 100%;
 }
@@ -545,12 +546,6 @@ footer a {
   text-align: center;
   margin: 0px;
 }
-
-.cta-submit:hover {
-  background-color: #fefefe;
-  color: #000000;
-}
-
 
 /** Checkout Success **/
 
