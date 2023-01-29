@@ -247,18 +247,16 @@ footer a {
   margin: 15px 1px;
 }
 
-.movie-sort {
-  max-width: 323px;
-  margin: auto;
-  position: relative;
-}
-
 .cta-tag:hover,
 .cta-rent:hover,
 .active-tag,
 .cta-submit:hover {
   background-color: var(--main-white);
   color: var(--main-dark-text)
+}
+
+.movie-sort {
+  display: none;
 }
 
 .product_sorted {
@@ -595,9 +593,6 @@ footer a {
     min-height: 100%;
     max-width: 100%;
   }
-.movie-sort {
-  max-width: 575px;
-}
 
 .cta-submit {
   width: 380px;
@@ -632,7 +627,10 @@ p {
 }
 
 .movie-sort {
+  display: block;
   max-width: 805px;
+  margin: auto;
+  position: relative;
 }
 
 .checkout-divide {
