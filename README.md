@@ -1,12 +1,8 @@
 # cross-course-project-Zaracki
 cross-course-project-Zaracki created by GitHub Classroom
 
-Sources for web security question, course assignment
+This is my delivery of the Html and CSS course assignment with the Square Eyes website
 
-[1] https://noroff-content.gitlab.io/feu/wct/web-security.html
+In this assignment I have used Visual Studio Code to write my CSS and Html.
+I have made a github repository and updated it as I have worked on this assignment and made a netlify and connected so I can see my changes.
 
-[2] https://techbeacon.com/security/third-party-libraries-are-one-most-insecure-parts-application
-
-[3] https://fusebit.io/blog/refresh-tokens-security/?utm_source=www.google.com&utm_medium=referral&utm_campaign=none
-
-[4] https://www.trellix.com/en-us/security-awareness/cybersecurity/what-is-a-zero-day-exploit.html
