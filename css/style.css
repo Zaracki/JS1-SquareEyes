@@ -366,7 +366,7 @@ footer a {
 
 .info-wrapper {
   background-color: transparent;
-  width: 370px;
+  width: 280px;
   padding: 50px 0 0 10px;
 }
 
@@ -427,17 +427,16 @@ footer a {
   max-width: 1160px;
   margin: auto;
   padding: 24px 0;
-  display: flex;
 }
 
 .cart-items {
   padding: 50px 0 0 10px;
-  width: 370px;
+  width: 280px;
 }
 
 .disc-thor {
-  margin-left: 20px;
-  margin-top: 110px;
+  margin-left: 10px;
+  margin-top: 40px;
 }
 
 .disc-thor p {
@@ -473,10 +472,11 @@ footer a {
 
 /** About **/
 
- .about-banner {
+ .about-banner,
+ .street-map {
   background-image: none;
-  min-height: 140px;
-  max-width: 350px;
+  min-height: 100%;
+  max-width: 100%;
   display: flex;
   mask-image: none;
   -webkit-mask-image: none;
@@ -492,20 +492,10 @@ footer a {
 }
 
 .about-info p {
-  font-size: 20px;
   margin: 30px;
 }
 
 /** Contact Page **/
-
-.street-map {
-  background-image: none;
-  min-height: 140px;
-  max-width: 350px;
-  display: flex;
-  mask-image: none;
-  -webkit-mask-image: none;
-}
 
 .contact-title {
   text-align: center;
@@ -520,7 +510,7 @@ footer a {
 
 .contact-info {
   padding: 60px 0 0 0;
-  width: 370px;
+  width: 280px;
 }
 
 .contact-info ul{
@@ -538,7 +528,7 @@ footer a {
 }
 
 .cta-submit {
-  width: 350px;
+  width: 260px;
   text-align: center;
   margin: 0px;
 }
@@ -572,6 +562,30 @@ footer a {
 .checkout-success_main p {
   text-align: center;
 }
+
+
+@media (min-width: 370px){
+  .info-wrapper,
+  .cart-items,
+  .contact-info {
+    width: 370px;
+  }
+
+  .cart-itempos {
+    padding: 24px 0;
+    display: flex;
+  }
+
+  .disc-thor {
+    margin-left: 20px;
+    margin-top: 110px;
+  }
+  .cta-submit {
+    width: 350px;
+  }
+
+}
+
 
 @media (min-width: 590px){
 
