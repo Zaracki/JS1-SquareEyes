@@ -9,7 +9,7 @@ I have made a github repository and updated it as I have worked on this assignme
 I have created the pages as was required from the site architecture of my chose brief: Home, List of Videos, A video page showing the product details (product details such as the description of the product, price and add to cart button), A checkout page, A checkout success, About, Contact.
 
 I also made adjustments/fixed some problems as suggested in my feedback. In my movies section i wanted a sorting system, the best way I found was to make a page for each genres to make it sort the selections when only using html and css. I have made the site responsive across a good amount of devices. As I used alot of grids I found that this help alot for me to make it look good for the smaller screens.
-I have learn alot now as I have coded my website that if I where to go back and design I would think differently on my design knowing how I would need to code. I feel that my design was very alright to code, and I would maybe start with mobile first and then desktop when I code my design and make it responsive. 
+I have learn alot now as I have coded my website that if I where to go back and design I would think differently on my design knowing how I would need to code. I like that my design was very minimalistic so it was good to code. I would try start with mobile first and then desktop next time when I code my design and make it responsive when dealing with media quaries.
 
 
 
