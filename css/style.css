@@ -13,6 +13,7 @@ body {
   --main-dark-text: #000000;
   --nav-color-dark: #000814;
   --cta-main: #dfbf1e;
+  --cta-payment: #008000;
 
 }
 
@@ -163,8 +164,6 @@ footer a {
   text-align: center;
 }
 
-
-
 .cta {
   margin: 20px 0px;
 }
@@ -225,11 +224,7 @@ footer a {
 /** Movies page **/
 
 .product_thor-banner {
-  background-image: none;
   mask-image: none;
-  min-height: 100%;
-  max-width: 100%;
-  display: flex;
 }
 
 .cta-tag {
@@ -264,9 +259,8 @@ footer a {
 
 /** product page Doctor Strange **/
 
-
-
-.product_drstrange-banner {
+.product_drstrange-banner,
+.product_thor-banner {
   background-image: none;
   min-height: 100%;
   max-width: 100%;
@@ -400,14 +394,14 @@ footer a {
 }
 
 .cta-pay {
-  background-color: #008000;
+  background-color: var(--cta-payment);
   color: var(--main-white);
   text-align: center;
   width: 100%;
 }
 
 .cta-pay:hover {
-  color: #000000;
+  color: var(--main-dark-text);
 }
 
 .checkout-divide {
