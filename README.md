@@ -8,6 +8,8 @@ I have made a github repository and updated it as I have worked on this assignme
 
 I have created the pages as was required from the site architecture of my chose brief: Home, List of Videos, A video page showing the product details (product details such as the description of the product, price and add to cart button), A checkout page, A checkout success, About, Contact.
 
+I also made adjustments/fixed some problems as suggested in my feedback. In my movies section i wanted a sorting system, the best way I found was to make a page for each genres to make it sort the selections when only using html and css.
+
 What I have used:
 Figma, Github, VS Code, HTML, CSS, wave.webaim.org, validator.w3.org, Chrome Developer Tools and Netlify
 
