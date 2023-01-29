@@ -2,7 +2,7 @@
 cross-course-project-Zaracki created by GitHub Classroom
 
 <h1>Html and CSS Course Assignment for Square Eyes</h1>
-<hr>
+
 In this assignment I have used Visual Studio Code to write my CSS and Html.
 I have made a github repository and updated it as I have worked on this assignment and made a netlify and connected so I can see my changes.
 
