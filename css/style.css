@@ -237,14 +237,14 @@ footer a {
   display: inline-block;
   background-color: transparent;
   color: var(--main-white);
-  padding: 8.52px 10.2px;
+  padding: 8.52px 9.2px;
   border-radius: 10px;
   text-decoration: none;
   border-style: solid;
   border-color: var(--main-white);
   font-size: 15.21px;
   font-weight: 600;
-  margin: 15px 1px;
+  margin: 15px 0px;
 }
 
 .cta-tag:hover,
@@ -563,14 +563,14 @@ footer a {
 }
 
 .checkout-success_main p {
-  font-size: 20px;
   margin: auto;
   padding: 0 0 50px;
 }
 
-.cta-continue {
-  text-align: center
-  ;
+.cta-continue,
+.checkout-success_main h1,
+.checkout-success_main p {
+  text-align: center;
 }
 
 @media (min-width: 590px){
@@ -594,9 +594,6 @@ footer a {
     max-width: 100%;
   }
 
-.cta-submit {
-  width: 380px;
-}
 
 
 }
@@ -647,6 +644,10 @@ p {
   width: 400px;
 }
 
+.cta-submit {
+  width: 380px;
+}
+
 }
 
 
@@ -690,8 +691,10 @@ p {
 
 
   .product_drstrange-banner {
-    min-height: 400px;
+    max-height: 400px;
     max-width: 1440px;
+    width: 100%;
+    height: 100%;
   }
 
   .cta-tag {
