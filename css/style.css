@@ -194,7 +194,10 @@ footer a {
 
 .new-arrivals img,
 .top-picks img,
-.coming-soon img {
+.coming-soon img,
+.cast img,
+.might-like img,
+.product_sorted img {
   width: 100%;
   border-radius: 15px;
   box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
@@ -215,7 +218,10 @@ footer a {
 .coming-soon {
   padding: 0px 0px 40px 0px;
 }
-
+.coming-soon img:hover {
+  transition: .5s ease;
+  opacity: 0.3;
+}
 
 /** Movies page **/
 
@@ -257,12 +263,6 @@ footer a {
 
 .product_sorted {
   padding: 30px 0px 40px 0px;
-}
-
-.product_sorted img {
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 /** product page Doctor Strange **/
@@ -348,13 +348,6 @@ footer a {
   padding: 40px 0px 0px 0px;
 }
 
-.cast img,
-.might-like img {
-  width: 100%;
-  border-radius: 15px;
-  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
-}
-
 .cast h3 {
   font-size: 20px;
   font-weight: 400;
@@ -367,7 +360,7 @@ footer a {
 
 /** Checkout **/
 
-.header_checkout {
+.page_h1-title {
   display: flex;
   justify-content: center;
   padding: 20px 0 0;
@@ -473,6 +466,11 @@ footer a {
 .product-total h4 {
   font-weight: 400;
   font-size: 20px;
+}
+
+.item-cart img {
+  border-radius: 15px;
+  box-shadow: 0px 0px 6px 4px rgba(0, 0, 0, 0.5);
 }
 
 /** About **/
