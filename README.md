@@ -13,3 +13,5 @@ Figma, Github, VS Code, HTML, CSS, wave.webaim.org, validator.w3.org, Chrome Dev
 
 Sources/refrences:
 I found good help in the Guitar Kings assignment/answer repos that helped me understand how to structure and style the heropage.
+
+Got alot of help and solutions from https://www.w3schools.com
