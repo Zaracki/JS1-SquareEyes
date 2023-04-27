@@ -22,9 +22,22 @@ fetch(apiUrl)
 
     console.log(json);
 
-    container.innerHTML = `<h1>${json.title}</h1>
-                             <img src="${json.image}"> 
-                             <div class="details-description">${json.description}</div>`;
+    container.innerHTML = `<section class="product-area">
+    <div class="product-img">
+      <img src="${json.image}" alt="Product picture of Doctor Strange in the Multiverse of Madness">
+    </div>
+    <div class="product-info">
+      <h1>${json.title}</h1>
+      <p>${json.description}</p>
+      <ul>
+        <li><span>Director:</span> Sam Raimi</li>
+        <li><span>Subtitles:</span> English (CC)</li>
+        <li><span>Language:</span> English</li>
+      </ul>
+      <a href="cart.html" class="cta cta-buy">Buy ${json.price}$</a>
+    </div>`;
+
+    
   }
 
   fetchMovie()
