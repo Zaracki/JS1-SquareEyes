@@ -1,4 +1,4 @@
-const container = document.querySelector(".container");
+const container = document.querySelector(".product_sorted");
 const apiUrl = "https://api.noroff.dev/api/v1/square-eyes/";
 
 async function fetchMovie() {
@@ -7,9 +7,9 @@ async function fetchMovie() {
 
   console.log(json);
 
-  json.forEach(function(movieser) {
+  json.forEach(function(json) {
     container.innerHTML += `<div>
-    <a><img src="${json.image}" class="product_item product_item-big"></a>
+    <a href="product-drstrange.html?id=${json.id}"><img src="${json.image}" class="product_item product_item-big" alt="${json.title}"></a>
   </div>`
   })
 
