@@ -11,6 +11,7 @@ async function fetchMovie() {
     container.innerHTML += `<div>
     <a href="product-drstrange.html?id=${json.id}"><img src="${json.image}" class="product_item product_item-big" alt="${json.title}"></a>
   </div>`
+
   })
 
 }

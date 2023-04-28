@@ -26,6 +26,7 @@
       <a href="cart.html" class="cta cta-buy">Buy ${json.price}$</a>
     </div>`;
 
+    document.title = `${json.title}`;
     
   }
 
