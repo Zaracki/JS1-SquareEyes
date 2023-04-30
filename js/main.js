@@ -10,13 +10,19 @@
   const container = document.querySelector(".container");
   const apiUrl = "https://api.noroff.dev/api/v1/square-eyes/" + id;
 
-  async function fetchMovie() {
+  try {
+    container.innerHTML = "Loading...";
+    async function fetchMovie() {
     const response = await fetch(apiUrl);
     const json = await response.json();
 
     console.log(json);
 
-    container.innerHTML = `<section class="product-area">
+    
+
+    setTimeout(function(){
+      
+          container.innerHTML = `<section class="product-area">
     <div class="product-img">
       <img src="${json.image}" alt="Product picture of Doctor Strange in the Multiverse of Madness">
     </div>
@@ -26,8 +32,17 @@
       <a href="cart.html" class="cta cta-buy">Buy ${json.price}$</a>
     </div>`;
 
-    document.title = `${json.title}`;
+    document.title = `${json.title}`; 
+    },2000);
+
+    }
+
+     fetchMovie()
+  }
+
+  catch(error) {
     
   }
 
-  fetchMovie()
+
+ 
