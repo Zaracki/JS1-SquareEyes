@@ -9,7 +9,7 @@ async function fetchMovie() {
 
   json.forEach(function(json) {
     container.innerHTML += `<div>
-    <a href="product-drstrange.html?id=${json.id}"><img src="${json.image}" class="product_item product_item-big" alt="${json.title}"></a>
+    <a href="details.html?id=${json.id}"><img src="${json.image}" class="product_item product_item-big" alt="${json.title}"></a>
   </div>`
 
   })

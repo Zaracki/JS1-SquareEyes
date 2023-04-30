@@ -14,7 +14,7 @@ async function fetchMovie() {
 
     newArrivalsContainer.innerHTML += `
     <div>
-    <a href="product-drstrange.html?id=${currentJson.id}"><img src="${currentJson.image}" class="product_item" alt="${currentJson.title}"></a>
+    <a href="details.html?id=${currentJson.id}"><img src="${currentJson.image}" class="product_item" alt="${currentJson.title}"></a>
     </div>`
   }
 
@@ -23,7 +23,7 @@ async function fetchMovie() {
 
     topPicksContainer.innerHTML += `
     <div>
-    <a href="product-drstrange.html?id=${currentJson.id}"><img src="${currentJson.image}" class="product_item" alt="${currentJson.title}"></a>
+    <a href="details.html?id=${currentJson.id}"><img src="${currentJson.image}" class="product_item" alt="${currentJson.title}"></a>
     </div>`
   }
   
